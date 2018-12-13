@@ -1,0 +1,83 @@
+body {
+	margin: 0;
+}
+
+.grid {
+	display: grid;
+}
+
+header {
+	grid-template: 500px / 2fr 1fr;
+}
+
+.headerLeft {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.headerLeftBackground {
+	position: absolute;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+}
+
+.shopName {
+	margin: 50px 150px;
+}
+
+.shopNameText {
+	font-family: 'Roboto';
+  	font-size: 18px;
+  	font-stretch: condensed;
+  	color: #393d3c;
+}
+
+.socials {
+	margin-top: 50px;
+}
+
+.socials img {
+	margin-right: 10px;
+}
+
+.headerRight {
+	height: 100%;
+	width: 100%;
+	background-color: #7acec3;
+	position: relative;
+  	color: #ffffff;
+	font-family: 'Roboto';
+	font-size: 13px;
+}
+
+svg {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+line {
+	stroke: #d1e4db;
+    stroke-width: 1;
+}
+
+.menuIcon {
+	margin: 50px auto;
+	margin-bottom: 0;
+	width: 100px;
+  	height: 100px;
+  	line-height: 100px;
+	text-align: center;
+	border: 3px solid #e9eae2;
+}
+
+.adress {
+	margin: 90px 20px;
+  	font-size: 13px;
+}
+
+.telephone {
+	margin: 60px 140px;
+}
