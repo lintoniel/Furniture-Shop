@@ -1,2 +1,2 @@
 # Furniture-Shop
-Desctop version of website with grid and jQuery
+Desktop version of website with grid and jQuery
