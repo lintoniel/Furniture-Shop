@@ -6,6 +6,10 @@ body {
 	display: grid;
 }
 
+.flex {
+	display: flex;
+}
+
 .relative {
 	position: relative;
 }
@@ -15,7 +19,8 @@ body {
 }
 
 header {
-	grid-template: 500px / 2fr 1fr;
+	font-family: 'Roboto';
+	grid-template: 500px / 6.1fr 3.1fr;
 }
 
 .headerLeft {
@@ -35,7 +40,6 @@ header {
 }
 
 .shopNameText {
-	font-family: 'Roboto';
   	font-size: 18px;
   	font-stretch: condensed;
   	color: #393d3c;
@@ -54,7 +58,6 @@ header {
 	width: 100%;
 	background-color: #7acec3;
   	color: #ffffff;
-	font-family: 'Roboto';
 	font-size: 13px;
 }
 
@@ -89,7 +92,9 @@ header {
 }
 
 .projects {
-	grid-template: repeat(4, 250px) 300px / 2fr 1.1fr 1.8fr 1.2fr 3.1fr;
+	grid-template: 250px 250px 214px 250px 300px / 2fr 1.1fr 1.8fr 1.2fr 3.1fr;
+	font-family: 'Roboto';
+	color: #333333;
 }
 
 .projectStart {
@@ -97,7 +102,6 @@ header {
 	width: 100%;
 	height: 100%;
 	background-color: #ebb240;
-	font-family: 'Roboto';
   	font-size: 13px;
   	color: #ffffff;
 }
@@ -139,11 +143,178 @@ header {
 }
 
 .fondue {
+	font-weight: 300;
 	grid-area: 1 / 3 / 3 / 5;
 }
 
-.fondueImg {
+.projectImg {
 	z-index: -1;
 	height: 100%;
-	width: 100%;
+	width: 100%; 
+}
+
+.fondueContent {
+	margin: 87px 0 0 80px;
+}
+
+.fondueTitle {
+	font-size: 24px;
+}
+
+.fondueInfo {
+	margin-top: 15px;
+	font-size: 12px;
+}
+
+.fondueView {
+	margin-top: 80px;
+}
+
+.projectView {
+	font-size: 18px;
+}
+
+.projectView img {
+	margin-right: 10px;
+}
+
+.fondueLikes {
+	margin: 114px 0 0 60px;
+}
+
+.projectLikes img {
+	margin-bottom: 5px;
+}
+
+.projectLikes {
+	font-size: 10px;
+	color: #ff0000;
+}
+
+.potter {
+	font-weight: 300;
+	grid-area: 1 / 5 / 2 / 6;
+}
+
+.potterContent {
+	width: 180px;
+	margin: 25px 0 0 40px;
+}
+
+.potterTitle {
+	font-size: 24px;
+}
+
+.potterInfo {
+	margin-top: 13px;
+	font-size: 12px;
+}
+
+.potterView {
+	margin-top: 15px;
+}
+
+.potterLikes {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.louis {
+	grid-area: 3 / 1 / 5 / 2;
+}
+
+.louisContent {
+	font-weight: 300;
+	color: #ffffff;
+	margin: 40px 0 0 30px;
+}
+
+.louisTitle {
+	font-size: 24px;
+}
+
+.louisInfo {
+	margin-top: 18px;
+	color: #fefefe;
+	font-size: 12px;
+}
+
+.louisView {
+	margin-top: 38px;
+}
+
+.louisLikes {
+	color: #fe7c7c;
+	margin: 30px 0 0 70px;
+}
+
+.p22 {
+	justify-content: flex-end;
+	grid-area: 3 / 2 / 5 / 5;
+}
+
+.p22Content {
+	margin-top: 90px;
+	width: 60%;
+	font-weight: 300;
+}
+
+.p22Title {
+	font-size: 24px;
+}
+
+.p22Info {
+	font-size: 12px;
+	margin-top: 17px;
+}
+
+.p22ContentLeft {
+	margin-right: 20px;
+}
+
+.p22View {
+	margin-top: 4px;
+}
+
+.p22Likes {
+	margin-top: 25px;
+	text-align: center;
+}
+
+.tabano {
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	grid-area: 2 / 5 / 4 / 6;
+}
+
+.tabanoContent {
+	font-weight: 300;
+	height: 30%;
+	width: 85%;
+}
+
+.tabanoTitle {
+	font-size: 24px;
+}
+
+.tabanoBottom {
+	justify-content: space-between;
+	margin-top: 14px;
+}
+
+.tabanoInfo {
+	font-size: 12px;
+}
+
+.fiji {
+	grid-area: 4 / 5 / 5 / 6;
+}
+
+.sesann {
+	grid-area: 5 / 1 / 6 / 4;
+}
+
+.alessi {
+	grid-area: 5 / 4 / 6 / 5;
 }
