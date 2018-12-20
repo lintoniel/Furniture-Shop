@@ -308,7 +308,32 @@ header {
 }
 
 .fiji {
+	font-weight: 300;
+	justify-content: flex-end;
 	grid-area: 4 / 5 / 5 / 6;
+}
+
+.fijiContent {
+	width: 50%;
+}
+
+.fijiTitle {
+	margin-top: 49px;
+	font-size: 24px;
+}
+
+.fijiInfo {
+	margin-top: 17px;
+	font-size: 12px;
+}
+
+.fijiView {
+	margin-top: 20px;
+}
+
+.fijiLikes {
+	margin-left: 75px;
+	margin-top: 20px;
 }
 
 .sesann {
